@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+body {
+    animation-name: oppacity;
+    animation-duration: 1s;
+    background-color: #10337c;
+    min-height: 100vh;
+}
+
+.main-container {
+    position: absolute;
+    width: 25rem;
+    border-radius: 1rem;
+    margin: 7rem 0 0 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #10337c;
+    padding: 5rem;
+    box-shadow: 0px 0px 15px #3f3f3f;
+}
+
+.main-cadastro {
+    min-height: 85vh;
+    position: absolute;
+    width: 25rem;
+    border-radius: 1rem;
+    margin: 0.25rem 0 0 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #10337c;
+    padding: 5rem;
+    box-shadow: 0px 0px 15px #3f3f3f;
+}
+
+.nome, .email, .senha, .telefone, .marca, .produto, .patamar{
+    margin: 0.5rem;
+    width: 20rem;
+    border: 0;
+    padding: 0.25rem;
+    color: #000000;
+    border-radius: 0.25rem;
+}
+
+.btn-enviar {
+    display: flex;
+    border-radius: 0.5rem;
+    margin: 2rem 0 0 7rem;
+    color: white;
+    font-weight: 700;
+    background-color: #0055ff;
+    text-decoration: none;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 3rem;
+    box-shadow: 0px 0px 15px #0055ff;
+    transition: ease-in-out .25s;
+}
+
+.btn-enviar:hover{
+    background-color: #5b91ff;
+    box-shadow: 0px 0px 15px #5b91ff;
+}
+
+.email, .password {
+    margin: 0.5rem;
+    border: 0;
+    padding: 0.25rem;
+    color: #000000;
+    border-radius: 0.25rem;
+}
+
+.btn-cadastrar {
+    color: white;
+    margin: 2rem 0 -1rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out .5s;
+}
+
+.btn-cadastrar:hover {
+    text-shadow: 0px 0px 15px #0055ff;
+}
+
+.btn-login {
+    color: white;
+    margin: 2rem 0 -1rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out .5s;
+}
+
+.btn-login:hover {
+    text-shadow: 0px 0px 15px #0055ff;
+}
+
+.navbar-brand {
+    margin-top: 3rem;
+}
+
+.logo {
+    position: absolute;
+    margin-bottom: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    filter: drop-shadow(0px 0px 5px #000);
+}
+
+.nav-left {
+    margin-bottom: 250vh;
+    float: left;
+    position: absolute;
+    margin-left: 14rem;
+    margin-top: -35rem;
+    text-decoration: none;
+}
+
+.container-navbar {
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.inicio, .prod, .dash, .objets, .calendar {
+    text-decoration: none;
+    color: #0055ff;
+    transition: ease-in-out .25s;
+    padding: 0.5rem;
+}
+
+.inicio:hover,
+.prod:hover,
+.dash:hover,
+.objets:hover,
+.calendar:hover {
+    color: #00277d;
+    text-shadow: 0px 0px 1px #00277d;
+}
+
+.nav-right {
+    margin-left: 85%;
+    float: right;
+    position: absolute;
+}
+
+.background {
+    margin-top: -21rem;
+    position: absolute;
+    background-color: #cfcfcf;
+    height: 6rem;
+    width: 210.5vh;
+}
+
+.footer {
+    font-size: 24px;
+    width: 100%;
+    height: 5rem;
+    background-color: #0c255c;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+
+.btn-cadastro {
+    margin-bottom: 200vh;
+    margin-top: -35rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.perfil {
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    background-color: #0055ff;
+    transition: ease-in-out .25s;
+}
+
+.perfil:hover {
+    background-color: #00277d;
+    box-shadow: 0px 0px 10px #00277d;
+}
+
+.btn-logout {
+    display: flex;
+    margin-left: 78rem;
+    margin-bottom: 135rem;
+    position: absolute;
+    font-size: 24px;
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    background: #000e14;
+    border-radius: 2rem;
+    transition: ease-in-out .25s;
+}
+
+.btn-logout:hover {
+    color: #000e14;
+    background-color: #ff0000;
+}
+
+.forms {
+    margin-top: 3rem;
+}
+
+#nivel_acesso {
+    margin-top: 2rem;
+}
+
+.btn-voltar{
+    background: #0055ff;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    width: 15rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    transition: ease-in-out .25s;
+}
+
+.btn-voltar:hover {
+    color: #0055ff;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px #ffffff;
+}
+
+@keyframes oppacity{
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
