@@ -1,1 +1,1 @@
-# hackatop
+# A ideia do projeto é criar um site com controle de depósitos de produtos de uma marca que está em promoção e também visualizar as datas em que irá ser aplicado as promoções, como feriado, aniversário do Condor ou da marca que está vendendo. O site terá login na parte de Administração e Funcionário, onde os administradores conseguem mudar os dados, produtos, a marca que o funcionário irá prestar serviço e também podendo colocar as datas das promoções
